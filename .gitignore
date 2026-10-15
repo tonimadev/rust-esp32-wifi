@@ -1,0 +1,31 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# ESP-IDF & Embuild artifacts
+.embuild/
+build/
+sdkconfig
+sdkconfig.old
+!sdkconfig.defaults*
+dependencies.lock
+*.elf
+*.bin
+*.map
+
+# ESP-IDF managed components
+managed_components/
+
+# Environment & Secrets
+.env
+*.env
+.env.*
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
